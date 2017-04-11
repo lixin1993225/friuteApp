@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<link rel="stylesheet" href="/src/css/ionic.min.css" />
+	<link rel="stylesheet" href="/src/css/home.css" />
+	<title>水果</title>
+</head>
+<body ng-app="friuteApp">
+	<div class="ng-view">
+	</div>
+	<div class="tabs tabs-icon-top">
+	  	<a href="#/tab/home" class="tab-item">
+	    	<i class="icon ion-home"></i>
+	   		 首页
+	  	</a>
+	  	<a class="tab-item">
+	    	<i class="icon ion-film-marker"></i>
+	    	品牌团
+	 	 </a>
+	 	<a class="tab-item">
+	    	<i class="icon ion-ios-briefcase"></i>
+	    	红包
+	  	</a>
+	 	<a href="#/tab/car" class="tab-item">
+	    	<i class="icon ion-ios-cart"></i>
+	    	购物车
+	  	</a>
+	 	<a class="tab-item">
+	    	<i class="icon ion-android-person"></i>
+	    	我的
+	  	</a>
+	</div>
+<script src="/src/lib/angular.js"></script>
+<script src="/src/lib/angular-route.js"></script>
+<script src="/src/js/app.js"></script>
+<script src="/src/filter/filter.js"></script>
+<script src="/src/js/controller/homeCtrl.js"></script>
+<script src="/src/js/controller/carCtrl.js"></script>
+</body>
+</html>

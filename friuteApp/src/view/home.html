@@ -1,0 +1,16 @@
+	<div class="bar bar-header bar-positive">
+	  	<button class="button icon ion-navicon"></button>
+	  	<h1 class="title">每日优先{{title}}</h1>
+	 	<button class="button">Edit</button>
+	</div>
+	<div class="row frow">
+		<div ng-repeat="item in tabList" class="col">{{item.name}}</div>
+	</div>
+	<div class="list">
+	    <a class="item item-thumbnail-left" ng-repeat="item in plist | product" href="#">
+		    <img src={{item.images.list}} alt="img" />
+		    <h2 class="shops_title">{{item.name}}</h2>
+		    <p class="shoptips">{{item.subtitle}}</p>
+		    <p class="shopspri">{{item.price}}</p>
+	    </a>
+	</div>
