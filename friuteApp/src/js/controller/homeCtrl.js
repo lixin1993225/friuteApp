@@ -12,6 +12,7 @@ app.controller('homeCtrl',function($scope,$http){
 		console.log(res.product_list);
 		$scope.tabList=res.category_list;
 		$scope.plist = res.product_list;
+		
 	}).error(function(res){
 		console.log("falid")
 	})
